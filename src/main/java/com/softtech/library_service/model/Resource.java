@@ -13,6 +13,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 public class Resource implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue

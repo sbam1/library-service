@@ -14,6 +14,7 @@ import java.io.Serializable;
 @Setter
 @NoArgsConstructor
 public class Staff implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue
